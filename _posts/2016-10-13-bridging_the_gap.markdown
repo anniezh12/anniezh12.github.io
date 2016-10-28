@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bridging the Gap"
-date:   2016-10-13 04:28:26 +0000
+date:   2016-10-13 00:28:26 -0400
 ---
 
 Black and White sounds very attractive but when white is the paper and black is the writing on top of it, it can be very boring. Our elementary school subject books in Pakistan were very much like this. They were black and white and devoid of all color. I spent many hours trying to understand them only to find later in life that I was a visual person. It was very hard trying to study with plain text and no pictures. One day my older brother convinced us to contribute to his fund to buy a computer. Me and my sister got very excited since computers were not very common in those days. After handing him a years worth of allowance money we finally bought a computer. 
