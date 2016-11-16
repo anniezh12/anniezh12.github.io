@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "OOP and Life"
-date:   2016-10-30 01:40:20 +0000
+date:   2016-10-29 21:40:20 -0400
 ---
 
 
@@ -11,63 +11,63 @@ Each person is born and belongs to a country and has specific attributes like di
 
 Lets consider a class Person (the class name should always start with a capital letter, otherwise it will give a syntax error)
 
+```
 class Person
 #code
 end
+```
 
 We created a class using keyword "class" following the name we want to give to our class, in this case "Person", we can then create an object of this class using keyword "new " as follows:
 
+```
 Qasim = Person.new
 
 Hunniya = Person.new
+```
 
 We have created two new objects of the class Person, "Qasim " and "Hunniya", both will have totally different storage spaces in memory and will not share their data or memory space with each other. That is the most appealing characteristic of OOP.
 
 lets add some functionality to this class by defining methods "Name", "Gender" and "Date_of_Birth" which will actually assigns name, gender of each person born and also set their date of birth. And finally a function which will display all the info about that person/object
 
+```
  class Person
  
-    def Name = (given_name)
-
+      def Name = (given_name)
              @name = given_name
-
       end
 
       def Gender = (gen)
-
              @gender = gen
-
       end
 
-     def Date_of_Birth = (supplied_dob)
-
+      def Date_of_Birth = (supplied_dob)
             @dob = supplied_dob
-
       end
 			
-			def Display_info
-			
+      def Display_info			
 			puts "Hi #{@name}! Your parents had a #{@gender} child on #{@dob} "
-
-       end
+      end
 			 
 	end
+```
 
 now we can repeat the same steps as we defined earlier to create an object
 
-Qasim = Person.new
+`Qasim = Person.new`
 
 so we have an object  "Qasim" which can call all the functions defined in the class it belongs to (using dot "." notation) 
 
+```
 Qasim.Name = "Qasim Hassan"
-
 Qasim.Gender = "Male"
-
 Qasim.Date_of_Birth ="03/30/2016"
+```
 
 now we have called three functions and provided them the information about Qasim we can get this information printed calling the final method as
 
+```
 Qasim.Display_info
+```
 
 and we will get the following result 
 
@@ -78,20 +78,20 @@ Instance variables are available across methods for any particular instance or o
 
  Ruby is a pure object-oriented language and everything appears to Ruby as an object. Every value in Ruby is an object, like strings, numbers and even true and false. Even a class itself is an object that is an instance of the Class class. For example if we declare a variable name 
  
- name = "Abiya"
+` name = "Abiya"`
 	
 Now the variable "name" belongs to a built in class string, and hence all the methods defined in that class can be applied to this variable. e.g
 	
-	name.length 
-	
-	=> 5
-	
-	name[0]
-	
-	=>A
-	
-	name.split("")
-	
-	=>["A","b","i","y","a"]
+```
+name.length 
+=> 5
+
+name[0]
+=>A
+
+name.split("")
+=>["A","b","i","y","a"]
+```
+
 	
 So we can conclude that Classes are the blueprints that define the behavior and information our objects will contain. They let us manufacture and instantiate new instances.
