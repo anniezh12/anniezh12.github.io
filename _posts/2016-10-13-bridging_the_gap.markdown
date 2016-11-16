@@ -12,6 +12,7 @@ After graduating with a Computer Science degree I started a family and moved to 
 
 Below is a story from Ashfaq Ahmed, one of Pakistan's greatest literary masters.
 
+```
 "Belonging to a small village, big cities were always a big attraction for young village people. After my adolescent years I joined Government College - Lahore to pursue my masters in Urdu literature. After learning about life in a big city, I felt not only confident but also started learning new information about the world. I used to spend time with an old old man while I as living in my village and went back to visit him while on leave from my studies. 
 
 He was same man but the Big City had changed me quite a bit. 
@@ -19,6 +20,7 @@ He was same man but the Big City had changed me quite a bit.
 After greeting and exchanging thoughts I tried to impress him by saying "BaBa, (A term of endearment for older people) do you know that a fly has eight thousand lenses; thats why when you try to kill her she flies away." I sat there waiting for the old man to comment on my astutue observation. After looking thoughtfully towards the ground the old man replied "But son, even with so many lenses, the fly still sits on garbage". The wisdom in his answer left me speechless.
 
 (Ashfaq Ahmed)
+```
 
 In todays world we have a wealth of information at our fingertips. We even have instant knowledge at the click of a mouse button and know which restaurant our friend is at, at any given moment. However, if an ambulance were to come to an old neigbors house in response to a medical emergency we would not know until a day or two later.
 
