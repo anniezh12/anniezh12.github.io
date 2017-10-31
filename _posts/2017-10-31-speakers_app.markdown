@@ -1,16 +1,17 @@
 ---
 layout: post
 title:      " Speakers App"
-date:       2017-10-31 04:53:24 +0000
+date:       2017-10-31 00:53:25 -0400
 permalink:  speakers_app
 ---
 
 
-Thinking about a domain model is always challenging. You dont want a model which has un necessary controllers or models. I made my app for a NGO which helps people finding a job while working for them I realize a lot of things are done manually before being published to their website. For example every week they have a meeting where different speakers come to give their lectures and we send them forms to manually fill which are then transfered to their IT team to add in the website. Another challenging job is to send email reminders before the meeting.  Based on this information I came up with following models
+Thinking about a domain model is always challenging. You dont want a model which has unnecessary controllers or models. I made my app for a NGO which helps people finding a job.  While working for them I realize a lot of things are done manually before being published to their website. For example every week they have a meeting where different speakers come to give their lectures and we send them forms to manually fill which are then transfered to their IT team to add in the website. Another challenging job is to send email reminders before the meeting.  Based on this information I came up with following models
 .
 
 **Admin**
   
+	Will be able to add/delete/update any user and their topics as well as creating new categories.
 	     	
 
 **User**
@@ -71,7 +72,7 @@ Is a join table which will hold a user_id from User and topic_id from Topic.
 *  has_many :categories, through: :topics
 
 
- ** Installing Devise**
+****  Installing Devise****
  
  step 1. gem 'devise' in gem file
  step 2. bundle install
@@ -96,6 +97,8 @@ giving us userscontroller and view/users
 
 now I created the traditional Restful actions for a user
 Note: specify resources :users in config/routes.rb under devise_for :users
+
+**User Controller**
 
 ```
 class UsersController < ApplicationController
@@ -237,6 +240,42 @@ To achieve DRY code I made sure to code most of the layout and sign in/signout a
   </body>
 </html>
 ```
+
+Topics index page where user is directed after creating a profile or signing in
+
+```
+<p>
+
+<h1>All Topics by <%= current_user.name%></h1>
+
+<ul>
+
+  <%if @topics %>
+     <% @topics.each do |topic|%>
+<br>
+    <li> 
+			<%= topic.title%>
+      <p> 
+		  <%= topic.description%>
+      <br>Delivered on :<%= topic.date_of_event%>
+      <p>
+      <div style="float:left"><%= button_to "Delete",topic_path(topic),method: :delete%>
+      </div>
+      <div style="float:left"><%= button_to "Edit ", edit_topic_path(topic),method: :get%>
+      </div>
+      <br>
+    </li>
+        <% end %>
+				
+    <%else%>
+   
+	 <h1>There are no topics at this time</h1>
+   
+	 <%end%>
+```
+
+
+
 
 
 I also added Admin through rails_admin.  No System is perfect and can be improved ....
