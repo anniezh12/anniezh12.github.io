@@ -29,6 +29,8 @@ A story  that teaches  a  great lesson  by Ashfaq Ahmed, one of Pakistan's great
 Today we have to decide which one to choose information or knowledge?
 
 One of my major objectives after becoming a web developer is to build a system that bridges the gap between the older and younger generations. My dream is to see young kids helping and holding the hands of older people, closing the generation gap and to see one generation learning from another. 
+
+> By Aniqa Elahi
  
 
 
