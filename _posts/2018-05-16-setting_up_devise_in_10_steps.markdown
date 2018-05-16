@@ -7,7 +7,7 @@ permalink:  setting_up_devise_in_10_steps
 
 Lets create a small app that utilizes Devise and provides  links to sign up, log in and logout.
 
-#### **step 1.** 
+#### **Step 1.** 
 				rails new MyApp  (will create a rails app)          
 					
 #### **Step 2.**
@@ -15,19 +15,19 @@ Lets create a small app that utilizes Devise and provides  links to sign up, log
 					gem ‘devise’  (specify devise gem inside Gemfile)
 					 run bundle install 
 					 
-#### **	 step 3**. 
+#### **Step 3**. 
 
 	 rails generate devise:install 		 
 	 
-#### **	 step 4**. 
+#### **Step 4**. 
 
       rails generate devise User 
 			
-#### **	 step 5**. 
+#### **	Step 5**. 
 
      run rake db:migrate (will create a users table)
 		 
-#### **	 step 6**. 
+#### **	Step 6**. 
 
 Now we have a devise user model which can Sign In/Sign Up/Sig Out.
  Devise has hidden cotrollers and views which can be  pulled using 
@@ -36,7 +36,7 @@ Now we have a devise user model which can Sign In/Sign Up/Sig Out.
 
 		 which will show us users/confirmations, users/mailer, users/registrations etc  inside the views directory.
 		 
-#### **	 step 7**. 
+#### **	Step 7**. 
 
 Similarly  devise  controllers can be made visible by
 
@@ -45,7 +45,7 @@ Similarly  devise  controllers can be made visible by
 which will generate controllers/users/confirmation_controller.rb, 
 controllers/users/registrations_controller.rb etc
 
-#### **	 step 8**. 
+#### **	Step 8**. 
 
 Either create a controller  manually or use 
 `rails g controller Welcome`
@@ -67,13 +67,13 @@ with the following code
 
    `<h1>Welcome Friend  <%=@user_email%></h1>`
 	 
-#### **	 step 9**. 
+#### **	Step 9**. 
 	 
  `lets direct our user to the welcome index action by providing a route in config/routes.rb`
 
 		get '/', to: 'welcome#index'
 		
-#### **	 step 10**. 
+#### **	Step 10**. 
 At this point we can see a message but see no links to all registration 
 actions... However we can access them using routes which can be seen by  running `rake routes` command. Lets make those routes visible to everyone by adding the following lines of code in views/welcome/index.html.erb
 
