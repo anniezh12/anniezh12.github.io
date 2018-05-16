@@ -1,19 +1,21 @@
 ---
 layout: post
 title:      "Setting Up Devise in 10 steps"
-date:       2018-05-16 06:41:47 +0000
+date:       2018-05-16 02:41:48 -0400
 permalink:  setting_up_devise_in_10_steps
 ---
 
 Lets create a small app that utilizes Devise and provides  links to sign up, log in and logout.
 
 #### **step 1.** 
-          rails new MyApp  (will create a rails app)          
+				rails new MyApp  (will create a rails app)          
+					
 #### **Step 2.**
-            gem ‘devise’  (specify devise gem inside Gemfile)
-             run bundle install 
+
+					gem ‘devise’  (specify devise gem inside Gemfile)
+					 run bundle install 
 ### **	 step 3**. 
-     rails generate devise:install 		 
+	 rails generate devise:install 		 
 ### **	 step 4**. 
       rails generate devise User 
 ### **	 step 5**. 
