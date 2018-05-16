@@ -14,12 +14,19 @@ Lets create a small app that utilizes Devise and provides  links to sign up, log
 
 					gem ‘devise’  (specify devise gem inside Gemfile)
 					 run bundle install 
+					 
 ### **	 step 3**. 
+
 	 rails generate devise:install 		 
+	 
 ### **	 step 4**. 
+
       rails generate devise User 
+			
 ### **	 step 5**. 
+
      run rake db:migrate (will create a users table)
+		 
 ### **	 step 6**. 
 
 Now we have a devise user model which can Sign In/Sign Up/Sig Out.
