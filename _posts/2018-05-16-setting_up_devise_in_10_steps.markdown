@@ -21,12 +21,12 @@ Lets create a small app that utilizes Devise and provides  links to sign up, log
 	 
 #### **Step 4**. 
 
-      rails generate devise User 
+		rails generate devise User 
 			
 			
 #### **	Step 5**. 
 
-     run rake db:migrate (will create a users table)
+	 run rake db:migrate (will create a users table)
 		 
 		 
 #### **	Step 6**. 
@@ -36,7 +36,7 @@ Now we have a devise user model which can Sign In/Sign Up/Sig Out.
  
 `rails generate devise:views users`
 
-		 which will show us users/confirmations, users/mailer, users/registrations etc  inside the views directory.
+	 which will show us users/confirmations, users/mailer, users/registrations etc  inside the views directory.
 		 
 		 
 #### **	Step 7**. 
