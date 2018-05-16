@@ -23,9 +23,11 @@ Lets create a small app that utilizes Devise and provides  links to sign up, log
 
       rails generate devise User 
 			
+			
 #### **	Step 5**. 
 
      run rake db:migrate (will create a users table)
+		 
 		 
 #### **	Step 6**. 
 
@@ -36,6 +38,7 @@ Now we have a devise user model which can Sign In/Sign Up/Sig Out.
 
 		 which will show us users/confirmations, users/mailer, users/registrations etc  inside the views directory.
 		 
+		 
 #### **	Step 7**. 
 
 Similarly  devise  controllers can be made visible by
@@ -45,7 +48,9 @@ Similarly  devise  controllers can be made visible by
 which will generate controllers/users/confirmation_controller.rb, 
 controllers/users/registrations_controller.rb etc
 
+
 #### **	Step 8**. 
+
 
 Either create a controller  manually or use 
 `rails g controller Welcome`
@@ -66,6 +71,7 @@ lets create app/views/welcome/index.html.erb
 with the following code
 
    `<h1>Welcome Friend  <%=@user_email%></h1>`
+	 
 	 
 #### **	Step 9**. 
 	 
