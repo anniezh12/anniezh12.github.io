@@ -86,7 +86,7 @@ Inside **config/initializers/devise.rb**  modify true to false as follows
 Configure Your google Account as follows
 
 1.Enable IMAP from your Gmail settings in Forwarding IMAP/POP tab
-2. Allow less secure apps: ON from https://myaccount.google.com/lesssecureapps
+2. Allow less secure apps: ON from [here](https://myaccount.google.com/lesssecureapps)
 
 ### Step 7
 
