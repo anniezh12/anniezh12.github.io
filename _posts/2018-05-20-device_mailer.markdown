@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Device Mailer "
+title:      "Devise Mailer "
 date:       2018-05-20 18:00:10 -0400
 permalink:  device_mailer
 ---
