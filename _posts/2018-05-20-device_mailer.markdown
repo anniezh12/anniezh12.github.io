@@ -8,7 +8,7 @@ permalink:  device_mailer
 
 Devise is a great gem and provides a lot of functionality. Today I will expalin how I made a very simple app that utilizes Devise and uses its Mailer to send emails upon signing up and authorizes an email. For setting up Devise follow the following link
 
-[[https://anniezh12.github.io/setting_up_devise_in_10_steps](http://)](http://)
+(http:///anniezh12.github.io/setting_up_devise_in_10_steps)
 
 So far our app has functionality of  sidn up/signing in/signing out etc but we dont recieve ny email upon a sign up. Lets do it less than 10 steps
 
@@ -86,7 +86,7 @@ Inside **config/initializers/devise.rb**  modify true to false as follows
 Configure Your google Account as follows
 
 1.Enable IMAP from your Gmail settings in Forwarding IMAP/POP tab
-2. Allow less secure apps: ON from https://myaccount.google.com/lesssecureapps
+2. Allow less secure apps: ON from (https://myaccount.google.com/lesssecureapps)
 
 ### Step 7
 
@@ -110,6 +110,6 @@ The ENV constant refers to a global hash for your entire computer environment.
 
 4. Finally the most important step is to not forget to add .env file in .gitignore, which will actually hide all of our important info from  general public. 
 
-https://github.com/anniezh12/DeviseMailer
+(https://github.com/anniezh12/DeviseMailer)
 
 
