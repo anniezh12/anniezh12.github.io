@@ -12,7 +12,7 @@ https://anniezh12.github.io/setting_up_devise_in_10_steps
 
 So far our app has functionality of  sidn up/signing in/signing out etc but we dont recieve ny email upon a sign up. Lets do it less than 10 steps
 
-### Step 1
+## Step 1
   Inside 
 **models/user.rb**  add **:confirmable** 
 
