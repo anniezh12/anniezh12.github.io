@@ -8,7 +8,7 @@ permalink:  device_mailer
 
 Devise is a great gem and provides a lot of functionality. Today I will expalin how I made a very simple app that utilizes Devise and uses its Mailer to send emails upon signing up and authorizes an email. For setting up Devise follow the following link
 
-[http:///anniezh12.github.io/setting_up_devise_in_10_steps](http://)
+[http:///anniezh12.github.io/setting_up_devise_in_10_steps](http://anniezh12.github.io/setting_up_devise_in_10_steps)
 
 So far our app has functionality of  sidn up/signing in/signing out etc but we dont recieve ny email upon a sign up. Lets do it less than 10 steps
 
