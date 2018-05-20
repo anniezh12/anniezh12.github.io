@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Device Mailer "
-date:       2018-05-20 22:00:09 +0000
+date:       2018-05-20 18:00:10 -0400
 permalink:  device_mailer
 ---
 
@@ -10,7 +10,7 @@ Devise is a great gem and provides a lot of functionality. Today I will expalin 
 
 https://anniezh12.github.io/setting_up_devise_in_10_steps
 
-So far our app has functionality of  sidn up/signing in/signing out etc but we dont recieve ny email upon a sign up. Lets do it another 10 steps
+So far our app has functionality of  sidn up/signing in/signing out etc but we dont recieve ny email upon a sign up. Lets do it less than 10 steps
 
 ### Step 1
   Inside 
