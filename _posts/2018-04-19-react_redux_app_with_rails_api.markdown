@@ -1,12 +1,13 @@
 ---
 layout: post
 title:      "React/Redux App with Rails Api"
-date:       2018-04-19 07:07:34 +0000
+date:       2018-04-19 03:07:35 -0400
 permalink:  react_redux_app_with_rails_api
 ---
 
 
-React and Redux,  unlike other programming languages are pretty hard to understand in the beginning.  I will briefly explain the concepts and features that I used in this app along with an explanation of the code. 
+ React is a JavaScript library for building user interfaces. Redux is an open-source JavaScript library for managing application state. It is most commonly used with libraries such as React or Angular for building user interfaces.
+ I will briefly explain the concepts and features that I used in this app along with an explanation of the code. 
 The concept starts with a web page being a collection of components (much like the states in our United States).
 It is not only easy to manage components individually, but they can also be used in other parts of code as needed.
 
