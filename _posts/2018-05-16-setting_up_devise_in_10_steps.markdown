@@ -19,6 +19,7 @@ Lets create a small app that utilizes Devise and provides  links to sign up, log
 
 	 rails generate devise:install 		 
 	 
+	 
 #### **Step 4**. 
 
 		rails generate devise User 
