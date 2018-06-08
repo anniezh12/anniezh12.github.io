@@ -26,10 +26,9 @@ gem ‘devise’  (specify devise gem inside Gemfile)
 			
 #### **Step 5**. 
 
- run rake db:migrate
-It will create a users table		 
+` run rake db:migrate` (It will create a users table with attributes username and email, to add anyother simply add them in users table in migration)		 
 		 
-#### **	Step 6**. 
+#### **Step 6**. 
 
 Now we have a devise user model which can Sign In/Sign Up/Sig Out.
  Devise has hidden cotrollers and views which can be  pulled using 
