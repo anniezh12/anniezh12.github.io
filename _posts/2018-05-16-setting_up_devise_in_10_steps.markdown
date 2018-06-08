@@ -26,7 +26,7 @@ gem ‘devise’  (specify devise gem inside Gemfile)
 			
 #### **Step 5**. 
 
-` run rake db:migrate` 
+ run rake db:migrate
 It will create a users table		 
 		 
 #### **	Step 6**. 
