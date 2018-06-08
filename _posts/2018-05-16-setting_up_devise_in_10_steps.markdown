@@ -27,8 +27,7 @@ gem ‘devise’  (specify devise gem inside Gemfile)
 #### **Step 5**. 
 
 ` run rake db:migrate` 
-It will create a users table
-		 
+It will create a users table		 
 		 
 #### **	Step 6**. 
 
@@ -38,7 +37,6 @@ Now we have a devise user model which can Sign In/Sign Up/Sig Out.
 `rails generate devise:views users`
 
  which will show us users/confirmations, users/mailer, users/registrations etc  inside the views directory.
-
 		 
 #### **	Step 7**. 
 
