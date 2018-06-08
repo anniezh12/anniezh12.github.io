@@ -26,7 +26,7 @@ gem ‘devise’  (specify devise gem inside Gemfile)
 			
 #### **Step 5**. 
 
-` run rake db:migrate` (It will create a users table with attributes username and email, to add anyother simply add them in users table in migration)		 
+` run rake db:migrate` (It will create a users table with attributes username and email, to add any other simply add them in users table in migration before this step)		 
 		 
 #### **Step 6**. 
 
@@ -37,7 +37,7 @@ Now we have a devise user model which can Sign In/Sign Up/Sig Out.
 
  which will show us users/confirmations, users/mailer, users/registrations etc  inside the views directory.
 		 
-#### **	Step 7**. 
+#### **Step 7**. 
 
 Similarly  devise  controllers can be made visible by
 
@@ -48,7 +48,7 @@ controllers/users/`confirmation_controller.rb` and
 controllers/users/`registrations_controller.rb` etc
 
 
-#### **	Step 8**. 
+#### **Step 8**. 
 
 
 Either create a controller  manually or use 
@@ -74,13 +74,14 @@ with the following code
  ` <h1>Welcome Friend  <%=@user_email%></h1>`
 	 
 	 
-#### **	Step 9**. 
+#### **Step 9**. 
 	 
  lets direct our user to the welcome index action by providing a route in `config/routes.rb`
 
 	`get '/', to: welcome#index`
 		
-#### **	Step 10**. 
+#### **Step 10**. 
+
 At this point we can see a message but see no links to all registration 
 actions... However we can access them using routes which can be seen by  running `rake routes` command. Lets make those routes visible to everyone by adding the following lines of code in views/welcome/index.html.erb
 
