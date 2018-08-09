@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Version Control/Git"
-date:       2018-08-09 19:48:11 +0000
+date:       2018-08-09 15:48:12 -0400
 permalink:  version_control_git
 ---
 
