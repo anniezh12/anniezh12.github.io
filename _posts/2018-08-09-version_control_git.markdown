@@ -15,7 +15,7 @@ Lets first discuss what Git is?
 A Google search yields  [Git Meaning](https://www.google.com/search?ei=TkgUW8eBCpOO8APuqqOQAQ&q=git+meaning&oq=git+&gs_l=psy-ab.1.1.35i39k1l2j0i67k1l8.6093.6093.0.8191.1.1.0.0.0.0.119.119.0j1.1.0....0...1.1.64.psy-ab..0.1.118....0.ByDMVvhIFwA)
 Whaaat?   Anyways, it seems git is a derivative of the word "get'. The actual definition of Github is that GitHub not only brings together the world's largest community of developers to discover, share, and build better software from open source projects to private teams but it also plays a great role in Version Control.
 
-# Version Control
+## Version Control
 Version Control is the process of storing multiple versions of a single project, allowing each version to be recalled at a later date. VCS (Version Control Software) are sometimes known as SCM (Source Code Management) tools or RCS (Revision Control System). One of the most popular VCS tools in use today is called Git. Git uses a database to store all the changes made to a project referenced by a label (commit) and can be used despite a stack of new commits on top of it. 
 Lets see how to use a Git
 
