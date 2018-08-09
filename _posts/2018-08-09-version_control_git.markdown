@@ -15,12 +15,13 @@ Lets first discuss what Git is?
 A Google search yields  [Git Meaning](https://www.google.com/search?ei=TkgUW8eBCpOO8APuqqOQAQ&q=git+meaning&oq=git+&gs_l=psy-ab.1.1.35i39k1l2j0i67k1l8.6093.6093.0.8191.1.1.0.0.0.0.119.119.0j1.1.0....0...1.1.64.psy-ab..0.1.118....0.ByDMVvhIFwA)
 Whaaat?   Anyways, it seems git is a derivative of the word "get'. The actual definition of Github is that GitHub not only brings together the world's largest community of developers to discover, share, and build better software from open source projects to private teams but it also plays a great role in Version Control.
 
-####  Version Control
+ **Version Control**
 
 Version Control is the process of storing multiple versions of a single project, allowing each version to be recalled at a later date. VCS (Version Control Software) are sometimes known as SCM (Source Code Management) tools or RCS (Revision Control System). One of the most popular VCS tools in use today is called Git. Git uses a database to store all the changes made to a project referenced by a label (commit) and can be used despite a stack of new commits on top of it. 
 Lets see how to use a Git
 
-### Connecting Your Project To Github
+**Connecting Your Project To Github**
+
 First, sign up for a git account. After signing up you can create a new repository by clicking "Start a project"
 specify a name for this project (in this case, "TestingGit" and you can leave it public or can make it private. Next go to your local project root directory (or if you dont have one, create one in the terminal) and follow the steps below
  
@@ -51,13 +52,15 @@ pushed our final code to remote repository yet... which can be done by `git push
 
 1. git add  .
 2. git commit -m " Any meaningful detailed message about the changes"
-3. git push origin master
+3. git push origin master.
 
-### Git Pull
+
+ **Git Pull**
+ 
 Above I am giving an example of  a simple  project  that I made and connected to Github which is not the case in most situations. Often more than one developer adds code to a project and in that case you need to pull the fresh code to your local repository before pushing new changes or even before making any changes to your code which can be done by 
 `git pull`.
 
-### GIT Fork and Clone
+ **GIT Fork and Clone**
 
  Moreover, you  can use/copy any public repository in your local environment by simply navigating to the desired repository and follow the following steps
  
@@ -65,8 +68,9 @@ Above I am giving an example of  a simple  project  that I made and connected to
   2.  Once Forked you can either clone or download  the repo, I usually clone it by clicking the clone button and then               copying the provided link.
   3.  Simply paste the copied link with this git command  `git clone  copied-link` in your terminal
   4.  Now you have a copy of all the code you can modify and can use the way you want!
+
   
-### 	Changing the remote repository
+	**Changing the remote repository**
 
    To check which remote repository is attached to our local project simply type 
 	  ` git remote -v`   //This will show us the current url of the remote repository 
@@ -76,7 +80,7 @@ Above I am giving an example of  a simple  project  that I made and connected to
 		 
 		 
 
-### **Time Machine**
+ **Time Machine**
 
 Ok so now how to get back in time. Github has made it very simple as well. In my case I simply need to delete the unwanted copies of code which I accomplish by ` git reset --hard commit_number`
 where commit_number is the commit you want to make your current state of the code and can be found by 
