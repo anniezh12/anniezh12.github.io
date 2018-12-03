@@ -9,7 +9,7 @@ Black and White sounds very attractive but when white is the paper and black is 
 
 I remember the day it arrived as we marveled at the all the components from the keyboard to the CPU and the monitor. However our excitement soon turned to betrayal and frustation as we realized that my brother would have total control over it. This experience upset me so much that I decided to pursue a career in Computer Sciences. After a very short time I soon figured that computer programming was something I always wanted to learn. 
 
-After graduating with a Computer Science degree I started a family and moved to the United States. Life became very busy... but something inside me always turned me toward a career in Computer Sciences. After moving here I noticed that the values I had instilled in me did not exist in the US. I saw that love between neighbors and respect for older people was lacking. 
+After graduating with a Computer Science degree I started a family and moved to the United States. Life became very busy... but something inside me always turned me toward a career in Computer Sciences. Life in the US was very different.  I noticed that individualism and strength was more valued, whereas where I was from relationships and how you fit within a group is more important.
 
 In todays world we have a wealth of information at our fingertips. We even have instant knowledge at the click of a mouse button and know which restaurant our friend is at, at any given moment. However, if an ambulance were to come to an old neigbors house in response to a medical emergency we would not know until a day or two later.
 
