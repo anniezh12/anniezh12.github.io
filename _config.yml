@@ -1,15 +1,14 @@
 # Site settings
+author: Aniqa Elahi
 title: Anonymous Function
 header-img: img/home-bg.png
 email: aniqaelahi@yahoo.com
-copyright_name: anniezh12
+copyright_name: Aniqa Elahi
 description: > # this means to ignore newlines until "baseurl:"
   Merging code with  life
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  anniezh12
-learn_profile: anniezh12
-email_username: aniqaelahi@yahoo.com
 
 # Build settings
 markdown: kramdown
