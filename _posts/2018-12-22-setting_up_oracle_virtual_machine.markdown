@@ -24,7 +24,7 @@ To install the `Oracle Virtual Machine` on my PC, I went to the following link
 https://www.virtualbox.org/wiki/Dowlaods.
 
 Then I chose `Windows Hosts` since my PC had Windows OS. Then I followed the following steps:
-
+![](https://imgur.com/a/E9rLGxw)
 >Please note, I am installing this virtual machine/virtual box for the sake of showing how I did this earlier, where not only I installed the Virtual Machine but also the Ubuntu OS.  
 
 1. Once the download was complete, I chose **New** to create a new Virtual Box named 'test'.
