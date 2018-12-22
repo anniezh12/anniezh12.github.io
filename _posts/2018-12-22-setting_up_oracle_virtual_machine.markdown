@@ -90,7 +90,8 @@ step-16. Next page asked me to enter information. After providing name and passw
 
 ![](https://imgur.com/JOW8Vph.png)
 
-step-17.  A welcome page appeared showing installation process in progress. I took a while to complete installation. And I was now able to use my VB.
+step-17.  A welcome page appeared showing installation process in progress. I took a while to complete installation. 
+Once done it prompted to restart the machine and I was now able to use my VB.
 
  ![ ](https://imgur.com/ielJogc.png)
 
