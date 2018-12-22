@@ -24,107 +24,74 @@ To install the `Oracle Virtual Machine` on my PC, I went to the following link
 https://www.virtualbox.org/wiki/Dowlaods.
 
 Then I chose `Windows Hosts` since my PC had Windows OS. Then I followed the following steps:
-![](https://imgur.com/a/E9rLGxw)
+)
 >Please note, I am installing this virtual machine/virtual box for the sake of showing how I did this earlier, where not only I installed the Virtual Machine but also the Ubuntu OS.  
 
-1. Once the download was complete, I chose **New** to create a new Virtual Box named 'test'.
-![](https://imgur.com/a/nLVEsh2)
+step-1. Once the download was complete, I chose **New** to create a new Virtual Box named 'test'.
+![](https://imgur.com/LtUwBjM.png)
 
-2. I kept default settings for the memory size in this part.
-![](https://imgur.com/a/E9rLGxw)
+ step-2. I typed ubuntu-1 and it automatically filled the two text boxes below it. 
 
-3. In this step I also kept the default option of `Create a virtual hard disk now` and then hit the `Create` button.
-![vm](images/oracle-vm/vm-hard.png)
+![ ](https://imgur.com/cAuIT95.png)
 
-4. In the next step I kept the default option for the `Hard disk file type` and hit `Next`.
+ step-3. I kept default settings for the memory size in this part.
 
-5. I selected `dynamically allocate` and hit `Next`.
+![](https://imgur.com/SbdMn59.png)
 
-![vm](images/oracle-vm/dynamic-storage.png)
+ step-4. In this step I also kept the default option of `Create a virtual hard disk now` and then hit the `Create` button.
 
-6. In the next step I kept the default settings for `File location and size` and hit `create`.
+![ ](https://imgur.com/Os9cngN.png)
 
-7. The virtual box was created. However, I could see the other virtual boxes as well since I had been working in another 'virtual box'  where I did my entire assignment.
+step-5. In the next step I kept the default option for the `Hard disk file type` and hit `Next`.
 
-![vm](images/oracle-vm/vb-created.png)
+![](https://imgur.com/27sphho.png)
 
-8. In order to start this newly created vb `test`, I selected `test` and hit `start` (Green arrow). A new text box appeared prompting me to select `virtual optical disk` file.
+step-6. I selected `dynamically allocate` and hit `Next`.
 
-![vm](images/oracle-vm/vb-select-location.png)
+![](https://imgur.com/ImRYvUS.png)
 
-9. I selected the `browser icon` and then selected the Ubuntu file as shown in the following image.
+step-7. In the next step I kept the default settings for `File location and size` and hit `create`.
 
- ![virtual-optical-disk-option](images/oracle-vm/virtual-optical-disk-option.png)
+![](https://imgur.com/6j249Ja.png)
 
-10. After selecting the file, I hit `start`.
+step-8. I also needed Ubuntu ISO file which I downloaded from the following link 
 
- ![virtual optical ](images/oracle-vm/vo-disk-start.png)
+![](https://imgur.com/wia57hI.png)
 
-11. Finally the virtual box `test` started running  with a welcome screen prompting to either install `Ubuntu` or use `Ubuntu Mate`. 
-I used Ubuntu Mate this time (Note: I installed ubuntu for the VB which I used to complete my Datadog assignment)
+step-9. The virtual box was created. In order to start this newly created vb `test`, I selected `test` and hit `start` (Green arrow). A new text box appeared prompting me to select `virtual optical disk` file (shown in the next step).
 
- ![Welcome ](images/oracle-vm/welcome.png)
+![](https://imgur.com/deP7J7Y.png)
 
-12. The following image shows the virtual box, `test`, running.
+step-10. I could have selected the Ubuntu ISO file already stored in my system as mentioned in step step-8. But I decided to skip this in order to explain a common error that can be encountered.
 
-![virtual box test ](images/oracle-vm/vb-test-running.png)
+![](https://imgur.com/82VBOSl.png)
 
-13. I could now select the terminal and start working in it.
+step-11.  Error `Fatal : No bootable medium found! System halted`
 
-![selecting terminall ](images/oracle-vm/selecting-terminal.png)
+![](https://imgur.com/9ULQdKS.png)
 
-14. The following image shows the `Command Line Interface/terminal`.
+step-12- In order to fix this error I simply went back in the newly created VB ubuntu-1 and selected `settings -> Storage `. I was able to see that `Controller: IDE ` was showing Empty disk. I was able to select `ubuntu-18.04.1-desktop-amd64.iso` file here.
 
-![terminal ](images/oracle-vm/vb-terminal.png)
+![](https://imgur.com/9ULQdKS.png)
 
-15. At this point, my system had nothing installed. I planned to work in Ruby, Rails and Atom (text editor) so the next step was to install these software using the terminal command `$ sudo apt-get install name-of-software`.
+Step-13- I then restarted VB `ubuntu-1` .
 
-![checks for softwares](images/oracle-vm/checks-for-softwares.png)
+![]https://imgur.com/9uEGMzR.png)
 
->Tip: The easiest way to check if a system has a perticular program installed is to use ** $ software -v** command (where v stands for version)
+step-14. A new page appeared with two options as shown in the following image.
 
-14. I tried to install ruby by using `$ sudo apt-get install ruby`, it didn't install `Ruby` instead a system update was suggested. I then updated the system by `$ sudo apt-get update`, which started the update process.
-Once the system updated, I installed ruby with no difficulty using `$ sudo apt-get install ruby`.
+![](https://imgur.com/SvjywV2.png)
 
-![Ruby installed ](images/oracle-vm/ruby-installed.png)
+step15. I selected `Install Ubuntu`. and kept the default settings for the page that appeared.
 
-###                            SETTING UP GIT IN THE LINUX TERMINAL
+![](https://imgur.com/guFQHpS.png)
 
-In order to complete `Datadog Solutions Engineer` assignment, I had to configure Git in my new Virtual box
-that I just created in the above section.
+step-16. Next page asked me to enter information. After providing name and password I pressed continue.
 
->What is GitHub?
->GitHub is an open source version control system (VCS) commonly known as Git. It is responsible for everything
-GitHub-related that happens locally on our computers.
+![](https://imgur.com/JOW8Vph.png)
 
-1. In order to use Github, one has to have an account on Github.
-2. I used terminal command to install git in my local environment using `$ sudo apt-get install git`.
+step-17.  A welcome page appeared showing installation process in progress. I took a while to complete installation. And I was now able to use my VB.
 
- ![git installation](images/oracle-vm/git-install.png)
+ ![ ](https://imgur.com/ielJogc.png)
 
- checking git version
-
- ![git installation](images/oracle-vm/git-version.png)
-
-3. After installing the git in my local environment, I had to connect it with the remote GitHub server which I did by creating a `SSH key`, more info in
-this link (https://help.github.com/articles/connecting-to-github-with-ssh/).
-
- `$ ssh-keygen -t rsa -b 4096 -C "my_email@example.com"`
-
- I hit enter for all the prompt e.g passphrase and location.
-
-  ![git installation](images/oracle-vm/creating-ssh-key.png)
-
-  The following image shows key generated.
-
-   ![git installation](images/oracle-vm/key-generated.png)
-
-I opened this key using `$ cat .ssh/id_rsa.pub` or `cat ~/.ssh/id_rsa.pub`, it showed a long key that I copied to use in my github account.
-
-4. Next I started ssh agent in the backgroung by using the command `$ eval "$(ssh-agent -s)"`.
-
- ![git installation](images/oracle-vm/ssh-agent.png)
-
- 5. I then used the key (from step 3) and added it to my github account. In order to do this I went to my Github account and selected the `SSH and GPG keys` menu option. Next, I selected the `New SSH key` button which showed options to add a `Title` and a `Key`. I then gave a title to this key and pasted the key that I copied earlier from the terminal (step 3) and hit the `Add SSH Key` button. Now I was connected to GitHub and was able to perform all the Git tasks (ex. cloning, pushing etc).
- I then cloned the Datadog hiring-engineers repository in my terminal using `$ git clone git@github.com:DataDog/hiring-engineers.git` and started working on it.
 
