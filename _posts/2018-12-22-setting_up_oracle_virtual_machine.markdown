@@ -5,7 +5,7 @@ date:       2018-12-22 14:24:51 -0500
 permalink:  setting_up_oracle_virtual_machine
 ---
 
-###                Virtualization
+##                Virtualization
 
 >What is Oracle Virtual Machine?
 
