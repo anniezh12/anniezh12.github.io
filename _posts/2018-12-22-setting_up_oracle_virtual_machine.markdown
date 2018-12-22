@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Setting Up Oracle Virtual Machine "
-date:       2018-12-22 19:24:50 +0000
+date:       2018-12-22 14:24:51 -0500
 permalink:  setting_up_oracle_virtual_machine
 ---
 
