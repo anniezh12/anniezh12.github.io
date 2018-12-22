@@ -5,7 +5,7 @@ date:       2018-12-22 14:24:51 -0500
 permalink:  setting_up_oracle_virtual_machine
 ---
 
-##                Virtualization
+## Virtualization
 
 >What is Oracle Virtual Machine?
 
@@ -18,7 +18,7 @@ permalink:  setting_up_oracle_virtual_machine
 >A simple way to define the process of virtualization as a 'Virtual Machine' is a guest house which can have one or many guest rooms,
  where a guest (any Operating System) can live/perform as if they are in their home.
 
-###                                   SETTING UP THE VIRTUAL MACHINE MANAGER TO USE LINUX OS
+###  SETTING UP THE VIRTUAL MACHINE MANAGER TO USE LINUX OS
 
 To install the `Oracle Virtual Machine` on my PC, I went to the following link
 https://www.virtualbox.org/wiki/Dowlaods.
