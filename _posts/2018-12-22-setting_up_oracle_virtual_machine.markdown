@@ -6,7 +6,8 @@ permalink:  setting_up_oracle_virtual_machine
 ---
 
 
->## Virtualization
+> Virtualization
+> 
 >What is Oracle Virtual Machine?
 >Oracle VM is a free and open source solution to run other operating systems on your PC.
 >
@@ -18,8 +19,8 @@ permalink:  setting_up_oracle_virtual_machine
 
 ###  SETTING UP THE VIRTUAL MACHINE MANAGER TO USE LINUX OS
 
-To install the `Oracle Virtual Machine` on my PC, I went to the following link
-https://www.virtualbox.org/wiki/Dowlaods.
+To install the `Oracle Virtual Machine` on my PC, I went to the 
+[Link](Lhttps://www.virtualbox.org/wiki/Dowlaods).
 
 Then I chose `Windows Hosts` since my PC had Windows OS. Then I followed the following steps:
 )
@@ -72,9 +73,9 @@ step-12- In order to fix this error I simply went back in the newly created VB u
 
 ![](https://imgur.com/9ULQdKS.png)
 
-Step-13- I then restarted VB `ubuntu-1` .
+Step-13- I then restarted VB `ubuntu-1`.
 
-![]https://imgur.com/9uEGMzR.png)
+![](https://imgur.com/9uEGMzR.png)
 
 step-14. A new page appeared with two options as shown in the following image.
 
