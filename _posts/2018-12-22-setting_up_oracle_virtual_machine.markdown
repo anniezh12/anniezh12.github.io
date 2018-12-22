@@ -20,7 +20,7 @@ permalink:  setting_up_oracle_virtual_machine
 ###  SETTING UP THE VIRTUAL MACHINE MANAGER TO USE LINUX OS
 
 To install the `Oracle Virtual Machine` on my PC, I went to the 
-[Link](Lhttps://www.virtualbox.org/wiki/Dowlaods).
+[Link](https://www.virtualbox.org/wiki/Dowlaods).
 
 Then I chose `Windows Hosts` since my PC had Windows OS. Then I followed the following steps:
 )
