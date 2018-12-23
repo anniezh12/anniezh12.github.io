@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Setting up Ruby/Rails environment and connecting to Github"
-date:       2018-12-23 21:31:55 +0000
+date:       2018-12-23 16:31:56 -0500
 permalink:  setting_up_ruby_rails_environment_and_connecting_to_github
 ---
 
@@ -17,20 +17,20 @@ Simply open/navigate to Ubuntu terminal . Here I wanted to install Ruby, Rails a
  
  step1. `sudo apt-get update` in order to update the current system.
  
- step-2. Next I will install the RVM  using the other two commands as described in the documentation i.e
+ step-2. Next I installed the RVM  using the other two commands as described in the documentation i.e
 ```
  `gpg2 --recv-keys 409B61796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB`
  
  `$ \curl -sSL https://get.rvm.io | bash -s stable --rails`
  
 ``` 
- It will take some time and I will be able to see the RVM installed as shown in the following image
+ It took some time and I was then able to see the RVM installed as shown in the following image
  ![](https://imgur.com/DGdEept.png)
  
- To start using RVM you need to run `source /home/aniqae/.rvm/scripts/rvm` in the terminal.
+ To start using RVM you need to run `source /home/aniqae/.rvm/scripts/rvm` in the terminal next.
 
   
->Tip: The easiest way to check if a system has a perticular program installed is to use ** $ software --version** command (where v stands for version)
+>Tip: The easiest way to check if a system has a perticular program installed is to use ** $ software --version** command 
 
 ![](https://imgur.com/FMSzUxG.png)
 
@@ -38,7 +38,7 @@ Simply open/navigate to Ubuntu terminal . Here I wanted to install Ruby, Rails a
 
 ###                            SETTING UP GIT IN THE LINUX TERMINAL
 
-Next step is to connect my local machine with my Github account in order to utilize Github version control functionality.
+Next step was to connect my local machine with my Github account in order to utilize Github version control functionality.
 
 >What is GitHub?
 >GitHub is an open source version control system (VCS) commonly known as Git. It is responsible for everything
@@ -54,7 +54,7 @@ Step 2. I used terminal command to install git in my local environment using `$ 
  
 
 Step 3. After installing the git in my local environment, I had to connect it with the remote GitHub server which I did by creating a `SSH key`, more info in
-this [link] (https://help.github.com/articles/connecting-to-github-with-ssh/).
+[This link] (https://help.github.com/articles/connecting-to-github-with-ssh/).
 
 ```
 `$ ssh-keygen -t rsa -b 4096 -C "my_email@example.com"`
@@ -65,14 +65,15 @@ this [link] (https://help.github.com/articles/connecting-to-github-with-ssh/).
 
    ![git installation](https://imgur.com/d4zgGrx.png)
 
-Step 4. Next I can get the SSH key using following terminal command. First I check if I do have an SSH key 
+Step 4. Next I got the SSH key using following terminal command. First I checked if I do have an SSH key 
 using ` ls -al ~/.ssh
 `
-I was able to see that I have an SSH key and all I had to do now was to copy this to in Github account mentioned in Step 5.
+I was able to see that I had an SSH key and all I had to do now was to copy this to in Github account mentioned in Step 5.
 I used  `cat ~/.ssh/id_rsa.pub` to grab the current SSH key and copied it. 
 ![](https://imgur.com/20DnlN9.png)
 
 
  Step 5. I then used the key (from step 4) and added it to my github account. In order to do this I went to my Github account and selected the `SSH and GPG keys` menu option. Next, I selected the `New SSH key` button which showed options to add a `Title` and a `Key`. I then gave a title to this key and pasted the key that I copied earlier from the terminal (step 4) and hit the `Add SSH Key` button. Now I was connected to GitHub and was able to perform all the Git tasks (ex. cloning, pushing etc).
- I can now  clone any repository in my terminal using `$ git clone git@github.com:repo_name.git` and started working on it.
+ I was now able  clone any repository in my terminal using `$ git clone git@github.com:repo_name.git` and started working on it.
+ For more on GitHub click [Link}(https://anniezh12.github.io/version_control_git).
 
