@@ -15,9 +15,10 @@ Simply open/navigate to Ubuntu terminal . Here I wanted to install Ruby, Rails a
  
  Since I am using RVM (Ruby Version Manager) in order to use Ruby and Rails. I can accomplish this by visition [link](https://rvm.io/) and following the steps.
  
- step1. `sudo apt-get update` in order to update the current system.
+ step 1. `sudo apt-get update` in order to update the current system.
  
- step-2. Next I installed the RVM  using the other two commands as described in the documentation i.e
+ 
+ step  2. Next I installed the RVM  using the other two commands as described in the documentation i.e
 ```
  `gpg2 --recv-keys 409B61796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB`
  
