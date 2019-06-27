@@ -6,7 +6,7 @@ permalink:  setting_up_environment_for_a_react_app
 ---
 
 
-**** Setting up Git bash 
+## Setting up Git bash 
 
 Git for Windows provides a BASH emulation used to run Git from the command line. In order to download Gitbash visit
 https://gitforwindows.org/ and download it.
