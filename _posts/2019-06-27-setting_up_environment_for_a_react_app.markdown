@@ -6,7 +6,7 @@ permalink:  setting_up_environment_for_a_react_app
 ---
 
 
-### Setting up Git bash 
+**** Setting up Git bash 
 
 Git for Windows provides a BASH emulation used to run Git from the command line. In order to download Gitbash visit
 https://gitforwindows.org/ and download it.
@@ -17,7 +17,7 @@ Simply proceed with the default setting until the final installation. Once insta
 
 ![](https://imgur.com/VcRL31y.jpg)
 
-### Checking Node and NPM 
+**** Checking Node and NPM 
 
 In order to create a React app using create-react-app command first we need to have both nodejs and npm. 
 We can see if the node and npm exist by simply using following linux commands in our bash terminal
@@ -30,7 +30,7 @@ v10.13.0  // showing that we have a node version
 
 In case if we dont have any of them we can install them using "$ apt-get install node" or "$ sudo apt-get install node"
 
- **Note: $ is a shorthand for terminal and  is not the part of command**
+> Note: $ is a shorthand for terminal and  is not the part of command
  
  NPM (Node Package Manager), has frequent updates and should be updated on a regular basis using following command.
  
@@ -41,7 +41,7 @@ In case if we dont have any of them we can install them using "$ apt-get install
  ![](https://imgur.com/hBdZGrD.jpg)
  
  
- ### Creating our first React App
+**** Creating our first React App
  
  Now we can easily create our React app using following command
  
@@ -55,7 +55,7 @@ In case if we dont have any of them we can install them using "$ apt-get install
  
  ![](https://imgur.com/rE8eW15.jpg)
  
- ### Opening  React App in a Text Editor
+**** Opening  React App in a Text Editor
  
  We can use any text editor to make changes to a react app but I will use Sublime Text here. Simply navigate to this newly created app and we can see the structure of the React app here. 
  
