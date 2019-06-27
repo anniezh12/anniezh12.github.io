@@ -18,7 +18,6 @@ Simply proceed with the default setting until the final installation. Once insta
 
 ![](https://imgur.com/VcRL31y.jpg)
 
-
 ### Checking Node and NPM 
 
 In order to create a React app using create-react-app command first we need to have both nodejs and npm. 
