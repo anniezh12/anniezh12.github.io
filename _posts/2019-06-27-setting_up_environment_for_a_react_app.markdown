@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Setting up environment for a React App"
-date:       2019-06-27 22:52:12 +0000
+date:       2019-06-27 18:52:13 -0400
 permalink:  setting_up_environment_for_a_react_app
 ---
 
