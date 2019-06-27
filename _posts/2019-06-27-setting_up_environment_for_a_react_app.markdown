@@ -18,7 +18,7 @@ Simply proceed with the default setting until the final installation. Once insta
 
 ![](https://imgur.com/VcRL31y.jpg)
 
-**** Checking Node and NPM 
+### Checking Node and NPM 
 
 In order to create a React app using create-react-app command first we need to have both nodejs and npm. 
 We can see if the node and npm exist by simply using following linux commands in our bash terminal
@@ -42,7 +42,7 @@ In case if we dont have any of them we can install them using "$ apt-get install
  ![](https://imgur.com/hBdZGrD.jpg)
  
  
-**** Creating our first React App
+### Creating our first React App
  
  Now we can easily create our React app using following command
  
@@ -56,7 +56,7 @@ In case if we dont have any of them we can install them using "$ apt-get install
  
  ![](https://imgur.com/rE8eW15.jpg)
  
-**** Opening  React App in a Text Editor
+###  Opening  React App in a Text Editor
  
  We can use any text editor to make changes to a react app but I will use Sublime Text here. Simply navigate to this newly created app and we can see the structure of the React app here. 
  
