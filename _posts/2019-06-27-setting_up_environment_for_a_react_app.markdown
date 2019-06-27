@@ -7,7 +7,7 @@ permalink:  setting_up_environment_for_a_react_app
 
 
 
-### Setting up Git bash
+## Setting up Git bash
 
 Git for Windows provides a BASH emulation used to run Git from the command line. In order to download Gitbash visit
 https://gitforwindows.org/ and download it.
@@ -18,7 +18,7 @@ Simply proceed with the default setting until the final installation. Once insta
 
 ![](https://imgur.com/VcRL31y.jpg)
 
-### Checking Node and NPM 
+## Checking Node and NPM 
 
 In order to create a React app using create-react-app command first we need to have both nodejs and npm. 
 We can see if the node and npm exist by simply using following linux commands in our bash terminal
