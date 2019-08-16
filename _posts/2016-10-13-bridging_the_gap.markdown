@@ -28,10 +28,10 @@ A story  that teaches  a  great lesson  by Ashfaq Ahmed, one of Pakistan's great
 
 Today we have to decide which one to choose;  information or knowledge?
 				
-We can build a number of technologies, can find life on Mars, have AI decide traffic flow but there are still people unable to live under a roof. Some even go to sleep hungry. In my opinion the advancement of technology is also the great downfall of humanity.
+We can build a number of technologies, can find life on Mars, have AI decide traffic flow but there are still people unable to live under a roof. Some even go to sleep hungry. In my opinion the advancement of technology should be used to save humanity.
 We the humans, tend to adopt what is the most beneficial thing to us from the previous generation. But in the recent era we have started losing this ability of adoptation from our previous generation, and hence losing what was the most important thing to the generations before us; Relations.
 
-One of my major objectives after becoming a web developer is to build a system that bridges the gap between the older and younger generations. My dream is to see young kids helping and holding the hands of older people, closing the generation gap and to see one generation learning from another. 
+One of my major objectives after becoming a web developer is to build a system using modren technology that bridges the gap between the older and younger generations. My dream is to see young kids helping and holding the hands of older people, closing the generation gap and to see one generation learning from another. 
 
 > By Aniqa Elahi
  
