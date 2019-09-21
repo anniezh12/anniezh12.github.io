@@ -7,6 +7,8 @@ permalink:  bridging_the_gap
 
 Black and White sounds very attractive but when white is the paper and black is the writing on top of it, it can be very boring. Our elementary school subject books in Pakistan were very much like this. They were black and white and devoid of all color. I spent many hours trying to understand them only to find later in life that I was a visual learner. It was very hard trying to study with plain text and no pictures. One day my older brother convinced us to contribute to his fund to buy a computer. My sister  and I  got very excited since computers were not very common in those days. After handing him a years worth of allowance money we finally bought a computer. 
 
+![](https://imgur.com/NpLR2IB.jpg)
+
 I remember the day it arrived as we marveled at the all the components from the keyboard to the CPU and the monitor. However our excitement soon turned to betrayal and frustation as we realized that my brother would have total control over it. This experience upset me so much that I decided to pursue a career in Computer Sciences. After a very short time I soon figured that computer programming was something I always wanted to learn. 
 
 After graduating with a Computer Science degree I started a family and moved to the United States. Life became very busy... but something inside me always turned me toward a career in Computer Sciences. Life in the US was very different.  I noticed that individualism and strength was more valued, whereas where I was from relationships and how you fit within a group was more important.
